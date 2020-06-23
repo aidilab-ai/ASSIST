@@ -1,0 +1,96 @@
+{
+  "main" : {
+    "is_test": false,
+    "transfer_learning": false,
+    "device":"CPU",
+    "device_count":{"CPU": 4},
+    "verbose": "high",
+    "tensorboard_saving" : false,
+    "max_model_checkpoints":2
+  },
+  "data": {
+    "op_encoding": "windows-1252",
+    "csv_encoding": "UTF-8",
+    "csv_quote" : "",
+    "csv_delimiter" : "|",
+    "num_classes" : 5,
+    "labels" : ["1","2","3","4","5"],
+    "labels_map" : {
+      "Basso": 1,
+      "Medio": 2,
+      "Alto": 3,
+      "Urgente": 4,
+      "Urgente2": 5
+    },
+    "max_num_tickets" : 250000
+  },
+  "clean_balancing_data": {
+    "splitDataTrainingTest": false,
+    "use_remove_identical_ticket": false,
+    "use_balancing_data": true,
+    "balancing_cut": 25000,
+    "balancing_classes": {
+      "1": 12,
+      "2": 18,
+      "3": 12
+    }
+  },
+  "paths":{
+    "main_path":"/home/questit/data/models_and_data/leonardo/models/priority/model/",
+    "data_path":"data/",
+    "csv_path":"data/SupportRequests.txt",
+    "model_path":"saved_model/",
+    "tensorboard_path":"tensorboard/",
+    "best_model_path":"best_models/",
+    "data_sequences_path":"parsed_sequences/",
+    "model_to_restore":"model.ckpt-1.meta",
+    "training_result_path":"training_results/"
+  },
+  "vocabulary":{
+    "loadOrbuild_dictionary":"load",
+    "vocab_size": 70000,
+    "unkown_token":"<UNK>",
+    "pad_token":"<PAD>",
+    "numeric_token":"<NUMERIC>",
+    "date_token":"<DATE>",
+    "currency_token":"<CURRENCY>",
+    "threshold_len":5
+  },
+  "feature_extractor":{
+    "features_to_extract" : ["check_isINVoc", "check_isNumeric", "check_isCurrency", "check_isDate"]
+  },
+  "neural_network":{
+    "input":{
+      "batch_size" : 8,
+      "epochs" : 5,
+	  "max_length_sequence":30
+    },
+    "word_embedding":{
+      "use_pretrained_embs":true,
+	  "input_word_emb_size":300,
+	  "skipgram_path":"/home/questit/data/word_embedding_models/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m",
+      "skipgramEmbedding": "",
+      "use_embedding_dropout":false,
+      "embedding_dropout_keep_prob":0.7
+    },
+    "lstm":{
+      "encoder_type":"LSTM",
+      "encoder_rnn_size":256
+    },
+    "mlp":{
+      "hidden_units":128,
+      "dropout_use": true,
+	  "dropout_keep_prob":0.8,
+	  "numb_layers":1
+    },
+    "regularization":{
+      "regularization_use":true,
+	  "regularization_type":"L2",
+      "regularization_beta":0.01
+    },
+    "optimizer":{
+      "optimizer_type":"Adam",
+      "lr":0.001
+    }
+  }
+}

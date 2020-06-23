@@ -1,0 +1,26 @@
+{
+  "main": {
+    "home_path": "/home/questit/data/models_and_data",
+    "code_path": "",
+    "skipgram_model_path" : "/home/questit/data/word_embedding_models/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m"
+  },
+  "model_types" : ["category", "priority"],
+  "users" : [
+    {
+      "name":"antonio",
+      "config_dir" : ""
+    },
+    {
+      "name":"leonardo",
+      "config_dir" : ""
+    },
+    {
+      "name":"adele",
+      "config_dir" : ""
+    },
+    {
+      "name":"fcariaggi",
+      "config_dir" : ""
+    }    
+  ]
+}

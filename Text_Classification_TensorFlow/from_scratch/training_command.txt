@@ -1,0 +1,8 @@
+python3 training.py \
+  --training-features data/Ambrogio/x_train.txt \
+  --training-targets data/Ambrogio/y_train.txt \
+  --vocabulary data/QIT/word2vec_vocabulary \
+  --config-file-path config/config_train.json \
+  --tensorboard-logdir tensorboard \
+  --word2vec-model-path /home/anfri/Lavoro-AiDiLab/ASSIST/assist-modified/data/word_embedding_models/wiki_iter\=5_algorithm\=skipgram_window\=10_size\=300_neg-samples\=10.m \
+  --checkpoint-dir checkpoints

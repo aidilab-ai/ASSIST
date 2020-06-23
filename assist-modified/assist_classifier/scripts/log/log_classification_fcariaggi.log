@@ -1,0 +1,108 @@
+2019-07-22 14:20:57,802 - __main__ - INFO - ------------------------------------------------------
+2019-07-22 14:20:57,802 - __main__ - INFO - 1 - Classification Script
+2019-07-22 14:20:57,802 - __main__ - INFO - 2 - Check Demon Existence
+2019-07-22 14:20:57,802 - __main__ - INFO - 3 - Create Classification PID file
+2019-07-22 14:20:57,803 - __main__ - INFO - 4 - Load Configuration
+2019-07-22 14:20:57,803 - __main__ - INFO - ++++++++++++++++++++++++++++++++++++++++++++
+2019-07-22 14:20:57,803 - __main__ - INFO - 5 - User Selected : fcariaggi
+2019-07-22 14:20:57,803 - __main__ - INFO - 6 - Open Classification Script For user : fcariaggi
+2019-07-22 14:20:57,803 - __main__ - INFO - ----------------------------------------------------------------------
+2019-07-22 14:20:57,803 - __main__ - INFO - ==================Ticket Classification Start=========================
+2019-07-22 14:20:57,803 - __main__ - INFO - ** Initialization Start**
+2019-07-22 14:20:57,803 - __main__ - INFO - 1 - Load Configurations start...
+2019-07-22 14:20:57,803 - __main__ - INFO - 	** Config Path /home/anfri/Lavoro-AiDiLab/ASSIST/assist-nlp-patch-1/assist_classifier/scripts/../ticket_classification/config/fcariaggi/
+2019-07-22 14:20:57,803 - __main__ - INFO - 	** Config for Class Classification
+2019-07-22 14:20:57,803 - __main__ - INFO - 	** Config for Priority Classification
+2019-07-22 14:20:57,803 - __main__ - INFO -  ** Load Vocabulary
+2019-07-22 14:20:57,910 - __main__ - INFO - 	** Uso pretrained Words Embedding
+
+2019-07-22 14:21:02,891 - __main__ - INFO - 1 - Load Configuration end
+2019-07-22 14:21:02,892 - __main__ - INFO - 2 - Login In API
+2019-07-22 14:21:02,892 - __main__ - INFO - --------------------------------
+2019-07-22 14:21:02,892 - __main__ - INFO - ========= LOGIN ================
+2019-07-22 14:21:02,892 - __main__ - INFO - 	-- Login to API URL : https://assist-prj.org/assist/api/v1/login
+2019-07-22 14:21:03,425 - __main__ - INFO - 	-- Checking Status
+2019-07-22 14:21:03,425 - __main__ - INFO - 	Status Code: 200 - OK
+2019-07-22 14:21:03,425 - __main__ - INFO - 	-- Checking Cookies
+2019-07-22 14:21:03,425 - __main__ - INFO - 	-- Checking Token
+2019-07-22 14:21:03,425 - __main__ - INFO - 	-- Set Token
+2019-07-22 14:21:03,425 - __main__ - INFO - 	-- Token Setted
+2019-07-22 14:21:03,425 - __main__ - INFO - ========= LOGGED IN ================
+2019-07-22 14:21:03,425 - __main__ - INFO - 3 - Get Next Tickets
+2019-07-22 14:21:03,425 - __main__ - INFO - ------------------------------------------
+2019-07-22 14:21:03,425 - __main__ - INFO - ========= GET NEXT TICKET ================
+2019-07-22 14:21:03,490 - __main__ - INFO - 	-- Checking Status
+
+2019-07-22 14:21:03,491 - __main__ - INFO - 	Status Code: 200 - OK
+2019-07-22 14:21:03,491 - __main__ - INFO - -Response {'id': 0}
+2019-07-22 14:21:03,491 - __main__ - INFO - ------------------------------------------
+2019-07-22 14:21:03,491 - __main__ - INFO - Non ci sono ticket da classificare. Chiudo il processo.
+2019-07-22 14:21:03,492 - __main__ - INFO - LogOut dalle API
+2019-07-22 14:21:03,492 - __main__ - INFO - --------------------------------
+2019-07-22 14:21:03,492 - __main__ - INFO - ========= LOGOUT ================
+2019-07-22 14:21:03,544 - __main__ - INFO - 	-- Checking Status
+2019-07-22 14:21:03,544 - __main__ - INFO - 	Status Code: 200 - OK
+2019-07-22 14:21:03,545 - __main__ - INFO - 	-- Reset Token
+2019-07-22 14:21:03,545 - __main__ - INFO - ========= LOGGED OUT ================
+2019-07-22 14:21:03,545 - __main__ - INFO - ==================Ticket Classification End=========================
+
+2019-07-22 14:21:03,545 - __main__ - INFO - ----------------------------------------------------------------------
+2019-07-22 14:21:03,726 - __main__ - INFO - ++++++++++++++++++++++++++++++++++++++++++++
+
+2019-07-22 14:21:03,726 - __main__ - INFO - 7 - Delete PID File
+2019-07-22 14:21:03,726 - __main__ - INFO - ------------------------------------------------------
+
+2019-07-22 14:21:42,956 - __main__ - INFO - ------------------------------------------------------
+2019-07-22 14:21:42,956 - __main__ - INFO - 1 - Classification Script
+2019-07-22 14:21:42,956 - __main__ - INFO - 2 - Check Demon Existence
+2019-07-22 14:21:42,956 - __main__ - INFO - 3 - Create Classification PID file
+2019-07-22 14:21:42,957 - __main__ - INFO - 4 - Load Configuration
+2019-07-22 14:21:42,957 - __main__ - INFO - ++++++++++++++++++++++++++++++++++++++++++++
+2019-07-22 14:21:42,957 - __main__ - INFO - 5 - User Selected : fcariaggi
+2019-07-22 14:21:42,957 - __main__ - INFO - 6 - Open Classification Script For user : fcariaggi
+2019-07-22 14:21:42,957 - __main__ - INFO - ----------------------------------------------------------------------
+2019-07-22 14:21:42,957 - __main__ - INFO - ==================Ticket Classification Start=========================
+2019-07-22 14:21:42,957 - __main__ - INFO - ** Initialization Start**
+2019-07-22 14:21:42,957 - __main__ - INFO - 1 - Load Configurations start...
+2019-07-22 14:21:42,957 - __main__ - INFO - 	** Config Path /home/anfri/Lavoro-AiDiLab/ASSIST/assist-nlp-patch-1/assist_classifier/scripts/../ticket_classification/config/fcariaggi/
+2019-07-22 14:21:42,957 - __main__ - INFO - 	** Config for Class Classification
+2019-07-22 14:21:42,957 - __main__ - INFO - 	** Config for Priority Classification
+2019-07-22 14:21:42,957 - __main__ - INFO -  ** Load Vocabulary
+2019-07-22 14:21:43,060 - __main__ - INFO - 	** Uso pretrained Words Embedding
+
+2019-07-22 14:21:48,016 - __main__ - INFO - 1 - Load Configuration end
+2019-07-22 14:21:48,016 - __main__ - INFO - 2 - Login In API
+2019-07-22 14:21:48,016 - __main__ - INFO - --------------------------------
+2019-07-22 14:21:48,016 - __main__ - INFO - ========= LOGIN ================
+2019-07-22 14:21:48,017 - __main__ - INFO - 	-- Login to API URL : https://assist-prj.org/assist/api/v1/login
+2019-07-22 14:21:49,022 - __main__ - INFO - 	-- Checking Status
+2019-07-22 14:21:49,023 - __main__ - INFO - 	Status Code: 200 - OK
+2019-07-22 14:21:49,023 - __main__ - INFO - 	-- Checking Cookies
+2019-07-22 14:21:49,023 - __main__ - INFO - 	-- Checking Token
+2019-07-22 14:21:49,023 - __main__ - INFO - 	-- Set Token
+2019-07-22 14:21:49,023 - __main__ - INFO - 	-- Token Setted
+2019-07-22 14:21:49,023 - __main__ - INFO - ========= LOGGED IN ================
+2019-07-22 14:21:49,023 - __main__ - INFO - 3 - Get Next Tickets
+2019-07-22 14:21:49,023 - __main__ - INFO - ------------------------------------------
+2019-07-22 14:21:49,023 - __main__ - INFO - ========= GET NEXT TICKET ================
+2019-07-22 14:21:49,284 - __main__ - INFO - 	-- Checking Status
+
+2019-07-22 14:21:49,284 - __main__ - INFO - 	Status Code: 200 - OK
+2019-07-22 14:21:49,285 - __main__ - INFO - -Response {'id': 0}
+2019-07-22 14:21:49,285 - __main__ - INFO - ------------------------------------------
+2019-07-22 14:21:49,285 - __main__ - INFO - Non ci sono ticket da classificare. Chiudo il processo.
+2019-07-22 14:21:49,285 - __main__ - INFO - LogOut dalle API
+2019-07-22 14:21:49,285 - __main__ - INFO - --------------------------------
+2019-07-22 14:21:49,286 - __main__ - INFO - ========= LOGOUT ================
+2019-07-22 14:21:49,694 - __main__ - INFO - 	-- Checking Status
+2019-07-22 14:21:49,694 - __main__ - INFO - 	Status Code: 200 - OK
+2019-07-22 14:21:49,695 - __main__ - INFO - 	-- Reset Token
+2019-07-22 14:21:49,695 - __main__ - INFO - ========= LOGGED OUT ================
+2019-07-22 14:21:49,695 - __main__ - INFO - ==================Ticket Classification End=========================
+
+2019-07-22 14:21:49,695 - __main__ - INFO - ----------------------------------------------------------------------
+2019-07-22 14:21:49,843 - __main__ - INFO - ++++++++++++++++++++++++++++++++++++++++++++
+
+2019-07-22 14:21:49,844 - __main__ - INFO - 7 - Delete PID File
+2019-07-22 14:21:49,844 - __main__ - INFO - ------------------------------------------------------
+

@@ -1,0 +1,7 @@
+Test accuracy: 83.92%
+
+[[311   2   0   4   7]  --- Fonia
+ [ 14 302   9   8  12]  --- Gestione Postazioni di Lavoro
+ [  6  11 238  35  11]  --- Gestione utenze
+ [ 23  17  63 188  17]  --- Posta Elettronica
+ [  5   8   3   0 292]] --- Rete e Sistemi

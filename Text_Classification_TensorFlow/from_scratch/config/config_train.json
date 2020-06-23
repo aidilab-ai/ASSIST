@@ -1,0 +1,10 @@
+{
+    "epochs": 10,
+    "validation_fraction": 0.2,    
+    "embedding_size": 256,
+    "lstm_units": [32, 64, 128],
+    "batch_sizes": [512, 1024],
+    "dropout_keep_probs": [0.7, 0.8, 0.9],
+    "learning_rates": [0.01, 0.001, 0.0001],
+    "l2_regularizations": [0.001, 0.0001, 0.00001]
+} 

@@ -1,0 +1,8 @@
+ 
+1) Rimuovere gli \n
+2) Troncare le email più lunghe di un certo numero di parole
+3) Concatenare il subject della mail al corpo (?)
+4) Sostituire i pattern del tipo =AB=CD con abcd, poi chiamare bytes.fromhex('abcd').decode('utf-8') per ottenere il corrispondente carattere decodificato. Tali pattern possono essere di varie lunghezze, come =AB, =AB=CD o =AB=CD=EF
+5) eliminare le stopwords
+6) eliminare le parole meno frequenti dal vocabolario
+7) ...

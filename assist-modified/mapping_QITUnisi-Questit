@@ -1,0 +1,21 @@
+
+Categorie Quest-it:
+
+ - Tecnica
+ - Amministrativa
+ - Informazioni
+ - Marketing
+ - Altro
+
+Mapping categorie QIT unisi: 
+ 
+ - Gestione utenze                    ->  Amministrativa
+ - Gestione Postazioni di Lavoro      ->  Tecnica 
+ - Posta Elettronica                  ->  Tecnica 
+ - Rete e Sistemi                     ->  Tecnica 
+ - Fonia                              ->  Tecnica
+ - Strumenti collaborativi            ->  Tecnica
+ - Abuse/Data breach                  ->  Informazioni  
+ - Siti web                           ->  Tecnica  
+ - Firma Elettronica  (no didattica)  ->  Amministrativa
+ - Streaming/Videoconferenza          ->  Informazioni

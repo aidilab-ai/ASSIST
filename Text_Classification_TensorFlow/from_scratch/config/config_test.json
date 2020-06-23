@@ -1,0 +1,6 @@
+ 
+{
+    "embedding_size": 256,
+    "lstm_units": 128,
+    "batch_size": 512
+} 

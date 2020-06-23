@@ -1,0 +1,9 @@
+{
+  "web_service": {
+    "url": "https://assist-prj.org/assist/api/v1",
+    "user": "test2@quest-it.com",
+    "password": "prova",
+    "token_id": "assist-sid",
+    "numb_next_tickets" : 100
+  }
+}
