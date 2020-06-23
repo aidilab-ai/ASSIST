@@ -1,5 +1,4 @@
-# ASSIST
-Text Classification on support requests
+## ASSIST - Text Classification on support requests
 
 The directory `assist-nlp-patch-1` contains the original code written by Quest-it.
 
